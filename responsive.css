@@ -1,0 +1,118 @@
+@media (max-width: 800px) {
+    .main {
+        text-align: center;
+        height: auto;
+      }
+      #header-img {
+        height: 4rem;
+      }
+      .navbar {
+        position: static;
+        float: none;
+        font-size: 1.4rem;
+        padding: 0.5rem 1rem;
+      }
+      .content
+      {
+        width: auto;
+      }
+      .home {
+        flex-flow: column wrap;
+        max-width: 100%;
+      }
+      .discription {
+        max-width: max-content;
+        padding-bottom: 8rem;
+      }
+      .image img
+      {
+          max-width: 100%;
+      }
+
+}
+@media (max-width: 991px) {
+    .header {
+      max-width: 75rem;
+    }
+    .content
+      {
+        width: auto;
+      }
+      .icon img {
+        max-height: 61%;
+        max-width: 62%;
+      }
+  }
+  @media (max-width: 475px) {
+    .nav-link {
+      margin: 0 0.2rem;
+      padding: 0 0.2rem;
+      font-size: 1.2rem;
+    }
+    .content
+      {
+        width: 100%;
+      }
+      .image img
+    {
+        max-width: 100%;
+    }
+  }
+  @media (max-width: 680px) {
+    .photo {
+      width: auto;
+      max-width: 100%;
+      min-width: 20rem;
+      margin: 1.5rem auto;
+      height: auto;
+    }
+    .content
+      {
+        width: auto;
+      }
+      .image img
+      {
+          max-width: 100%;
+      }    
+  }
+  @media (max-width: 990px) {
+    .bar {
+      flex-flow: column wrap;
+    }
+    .icon {
+      margin: 0 1.5rem;
+      width: 30%;
+    }
+    .content
+      {
+        width: auto;
+      }
+  }
+  @media (max-width: 520px) {
+    #Contact h6 {
+      font-size: 2rem;
+    }
+    #Contact input[type="submit"],
+    #Contact input[type="email"] {
+      margin: 1rem 1rem 0 1rem;
+    }
+    .image img
+    {
+        max-width: 100%;
+    }
+  }
+  @media (max-width: 450px) {
+    .image img
+    {
+        max-width: 100%;
+    }
+    #Contact h6 {
+        font-size: 2rem;
+      }
+      #Contact input[type="submit"],
+      #Contact input[type="email"] {
+        margin: 1rem 1rem 0 1rem;
+      }
+  }
+
+  
